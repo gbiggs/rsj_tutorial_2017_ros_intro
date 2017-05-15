@@ -1,0 +1,8 @@
+<launch>
+  <node name="greeter" pkg="rsj_tutorial_2017_ros_basics" type="greeter">
+    <param name="hello_text" value="allo"/>
+    <param name="world_name" value="earth"/>
+  </node>
+
+  <node name="displayer" pkg="rsj_tutorial_2017_ros_basics" type="displayer" output="screen"/>
+</launch>
